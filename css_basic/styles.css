@@ -108,3 +108,55 @@ aside {
         overflow-y: visible; /* Disable scrolling on small screens */
     }
 }
+
+/* Styling for the logo */
+.logo {
+    font-size: 2rem; /* Make the logo larger */
+    color: #ffcc00; /* Change the color of the logo */
+    margin-right: 10px; /* Add some space to the right */
+}
+
+/* Body styling */
+body {
+    background-color: #f0f0f0; /* Set a light grey background */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    color: #333; /* Set text color */
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    padding: 10px; /* Add padding */
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Keep the flexbox layout */
+}
+
+/* Navigation links styling */
+nav a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add padding around links */
+}
+
+/* Article styling */
+article {
+    background-color: white; /* Set background for the article */
+    padding: 20px; /* Add padding inside the article */
+    border-radius: 5px; /* Round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Example styles for paragraphs and headings within article */
+article h2 {
+    color: #2c3e50; /* Dark color for headings */
+}
+
+article p {
+    line-height: 1.6; /* Improve readability */
+}
+
