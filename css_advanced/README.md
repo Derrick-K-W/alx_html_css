@@ -1,4 +1,6 @@
-SmileSchool Website
+                                                 SmileSchool Website
+
+
 This project is a simple landing page for SmileSchool, an educational platform that teaches people how to smile with confidence. The page highlights various features of the platform, including tutorials, free membership, FAQs, and instructor information.
 
 Table of Contents
