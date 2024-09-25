@@ -3,21 +3,21 @@ This project is a simple landing page for SmileSchool, an educational platform t
 
 Table of Contents
 
-Overview
+     Overview
 
-Features
+     Features
 
-Technologies Used
+     Technologies Used
 
-How to Run the Project
+     How to Run the Project
 
-Credits
+     Credits
 
-Overview
+                                                 OVERVIEW
 
 The SmileSchool landing page is designed to provide users with an overview of the platform's offerings. Users can explore tutorials, see instructor information, register for free membership, and browse frequently asked questions (FAQ).
 
-Features
+                                                 FEATURES
 
 Responsive Design: The page is designed to be responsive across different screen sizes using standard HTML.
 
@@ -44,9 +44,9 @@ Frequently Asked Questions (FAQ): Provides answers to common questions about the
 Footer with Social Media Links: Includes icons for Facebook, Twitter, and Instagram using FontAwesome.
 
  ![alt text](Footer%202.png)
- 
 
-Technologies Used
+
+                                                 TECHNOLOGY USED
 
 HTML5: Used for the structure of the page.
 
@@ -54,7 +54,7 @@ FontAwesome: Icons for social media links and star ratings.
 
 Images: Placeholder images are used for logos, tutorials, and instructor profiles.
 
-How to Run the Project
+                                                 HOW TO RUN THE PROJECT
 
 Download the Repository:
 
@@ -72,7 +72,7 @@ Optional:
 
 Replace placeholder images (e.g., fakeimg.pl and images in the ./images/ folder) with your own images to customize the look and feel of the page.
 
-Credits
+                                                 CREDITS
 
 FontAwesome for icons (social media and star ratings).
 
