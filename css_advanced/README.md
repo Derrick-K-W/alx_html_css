@@ -15,13 +15,13 @@ Responsive Design: The page is designed to be responsive across different screen
 Instructors Section: Displays featured instructors with their achievements and accolades.
  ![alt text](image.png)
 Popular Tutorials: A section showcasing the most popular tutorials, each with a 5-star rating system.
- ![alt text](image-1.png)
+ ![alt text](image-5.png)
 Free Membership: Offers users the chance to register for a free membership and explore features.
- ![alt text](image-2.png)
+ ![alt text](image-6.png)
 Frequently Asked Questions (FAQ): Provides answers to common questions about the platform.
- ![alt text](image-3.png)
+ ![alt text](image-7.png) 
 Footer with Social Media Links: Includes icons for Facebook, Twitter, and Instagram using FontAwesome.
- ![alt text](image-4.png)
+ ![alt text](image-8.png)
 Technologies Used
 HTML5: Used for the structure of the page.
 FontAwesome: Icons for social media links and star ratings.
