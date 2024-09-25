@@ -68,7 +68,7 @@ Navigate to the project folder and open the index.html file in your preferred we
 
 External Resources:
 
-Ensure that you are connected to the internet to load FontAwesome icons (included via CDN).
+Ensure that you are connected to the internet to load FontAwesome icons.
 
 Optional:
 
