@@ -56,7 +56,7 @@ FontAwesome: Icons for social media links and star ratings.
 
 Images: Placeholder images are used for logos, tutorials, and instructor profiles.
 
-                                                 HOW TO RUN THE PROJECT
+                                                      HOW TO RUN THE PROJECT
 
 Download the Repository:
 
