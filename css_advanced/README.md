@@ -1,4 +1,4 @@
-                                                 SmileSchool Website
+                                                      SMILESCHOOL WEBSITE
 
 
 This project is a simple landing page for SmileSchool, an educational platform that teaches people how to smile with confidence. The page highlights various features of the platform, including tutorials, free membership, FAQs, and instructor information.
@@ -15,11 +15,11 @@ Table of Contents
 
      Credits
 
-                                                 OVERVIEW
+                                                      OVERVIEW
 
 The SmileSchool landing page is designed to provide users with an overview of the platform's offerings. Users can explore tutorials, see instructor information, register for free membership, and browse frequently asked questions (FAQ).
 
-                                                 FEATURES
+                                                      FEATURES
 
 Responsive Design: The page is designed to be responsive across different screen sizes using standard HTML.
 
@@ -48,7 +48,7 @@ Footer with Social Media Links: Includes icons for Facebook, Twitter, and Instag
  ![alt text](Footer%202.png)
 
 
-                                                 TECHNOLOGY USED
+                                                      TECHNOLOGY USED
 
 HTML5: Used for the structure of the page.
 
@@ -74,7 +74,7 @@ Optional:
 
 Replace placeholder images (e.g., fakeimg.pl and images in the ./images/ folder) with your own images to customize the look and feel of the page.
 
-                                                 CREDITS
+                                                      CREDITS
 
 FontAwesome for icons (social media and star ratings).
 
