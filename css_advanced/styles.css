@@ -1,36 +1,43 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font similar to the one in the reference image */
 }
 
 body {
-    background-color: #F5F5F5;
-    color: #333;
+    margin: 0;
 }
 
 header {
-    background-image: url('images/Object.png');
+    background-image: url('images/Object.png'); /* Set your background image here */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; /* Make header full screen */
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     color: #fff;
 }
 
-/* Logo section */
+/* Logo section with SmileSchool text */
 .logo {
     position: absolute;
     top: 30px;
     left: 40px;
+    display: flex;
+    align-items: center;
+    z-index: 2; /* Ensure the logo is visible */
 }
 
 .logo img {
     height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
 }
 
 /* Navigation Links */
@@ -38,6 +45,7 @@ header {
     position: absolute;
     top: 30px;
     right: 40px;
+    z-index: 2; /* Ensure navigation is visible */
 }
 
 .nav-links a {
@@ -47,22 +55,27 @@ header {
     font-weight: bold;
 }
 
-/* Hero content in the center */
+/* Hero content (Get schooled) in the center */
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust height to keep spacing for pros section */
     text-align: center;
-    margin: auto;
-    padding: 0 20px;
+    z-index: 2;
 }
 
 .hero h1 {
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 
 .register-btn {
@@ -73,47 +86,122 @@ header {
     border-radius: 5px;
     font-size: 1.2rem;
     font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #812fc9;
 }
 
 /* Pros section */
 .pros-section {
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px 20px;
     background-color: transparent; /* Clear background */
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    z-index: 2; /* Keep on top of the background */
 }
 
 .pros-section h2 {
     font-size: 2rem;
-    color: #A140F2;
     margin-bottom: 40px;
 }
 
+/* Word "Learn" in purple, rest in white */
+.pros-section .learn {
+    color: #A140F2; /* Purple color for "Learn" */
+    font-family: 'Arial', sans-serif; /* Ensure "Learn" is in sans-serif */
+}
+
+/* Styling for "from the pros" */
+.pros-section h2 span.from-pros {
+    color: #fff; /* White color */
+    font-family: 'Arial', sans-serif; /* Ensure this part is also in sans-serif */
+}
+
+/* The existing styles */
 .pros {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .pro {
     text-align: center;
-    width: 200px;
+    width: 150px;
     margin-bottom: 20px;
 }
 
 .pro img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
 .pro h3 {
-    font-size: 1.2rem;
-    color: #333;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .pro p {
     font-size: 0.9rem;
-    color: #666;
+    color: #fff;
     font-style: italic;
+}
+
+
+
+/* Container for the testimonial section */
+.testimonial-container {
+    background-color: #B163FF; /* Light purple background */
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the image and text horizontally */
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+/* Styling for the image */
+.testimonial-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+/* Container for the text */
+.testimonial-text {
+    max-width: 600px;
+    text-align: left; /* Keep the text left-aligned within the block */
+}
+
+/* Styling for the quote */
+.testimonial-text p {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Styling for the name */
+.testimonial-text .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add space between name and profession */
+}
+
+/* Styling for the profession */
+.testimonial-text .profession {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    font-style: italic; /* Make the profession italic */
 }
