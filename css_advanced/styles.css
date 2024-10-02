@@ -296,6 +296,19 @@ body {
     margin-bottom: 8px;
 }
 
+.tutorial-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 12px;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
