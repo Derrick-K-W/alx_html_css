@@ -1,5 +1,5 @@
 /* General styles */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -204,4 +204,135 @@ header {
     font-size: 0.9rem;
     color: #e0e0e0;
     font-style: italic; /* Make the profession italic */
+}
+
+/*Stlying for most popular tutorial section */
+
+body {
+    margin: 0px;
+    background-image: url('images/white.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Make header full screen */
+    position: relative;
+    color: #fff;
+   
+}
+
+#container {
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    max-width: 80px;
+    margin: 0 auto;
+    text-align: center;
+     /* Ensures the section has a white background */
+    padding: 40px; /* Adds padding around the content */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px 0 20px 0;
+}
+
+.highlight {
+    color: #a070ff;
+}
+
+.black-text {
+    color: #888;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.tutorial-cards {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 23%;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-image {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.play-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card p {
+    color: purple;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.stars {
+    display: flex;
+}
+
+.star-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
 }
