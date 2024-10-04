@@ -22,8 +22,7 @@ The webpage consists of several sections, including a **header with a hero image
 4. [Technologies](#technologies)
 5. [Screenshots](#screenshots)
 6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 ## Installation
 
