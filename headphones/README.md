@@ -48,9 +48,9 @@ If you'd like to contribute or modify the page:
 ## File Structure
 
 
- index.html    # Main HTML file
- style.css     # Main CSS file for styling
- assets/       # Folder for images and other media
+1. index.html - Main HTML file
+2. style.css - Main CSS file for styling
+3. assets/ - Folder for images and other media
 
 - **index.html**: Contains the structure of the webpage.
 - **style.css**: Includes all styling for the webpage, including responsive design rules.
